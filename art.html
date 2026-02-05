@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Art</title>
+  <link rel="stylesheet" href="style2.css" />
+  <style>
+    
+body{
+  margin: 0;
+  
+  background-color: whitesmoke;
+  overflow-x: hidden;
+}
+
+.wall {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  
+}
+
+
+
+.art {
+  position: absolute;
+  filter: grayscale(100%);
+  transition: transform 0.3s ease;
+}
+
+.art img {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 100%;
+
+}
+
+
+.art:hover {
+  transform: scale(1.2);
+  z-index: 10;
+  filter: grayscale(0%);
+}
+
+
+#art1 {
+  top: 50%;
+  left: 50%;
+  width: 16%;
+}
+
+#art2 {
+  top: 55%;
+  left:37%;
+  width: 14%;
+}
+
+#art3 {
+  top: 42%;
+  left: 49%;
+  width: 13%;
+}
+
+#art4 {
+  top: 40%;
+  left: 62%;
+  width: 11%;
+}
+
+#art5 {
+  top: 30%;
+  left: 38%;
+  width: 14%;
+}
+#art6{
+  top: 25%;
+  left: 65%;
+  width: 17%;
+
+}
+
+#art8{
+  top: 23%;
+  left: 48%;
+  width: 17%;
+
+}
+#art9{
+  top:35%;
+  left: 22%;
+  width: 17%;
+
+}
+#art10{
+  top: 11%;
+  left: 35%;
+  width: 17%;
+
+}
+#art11{
+  top: 53%;
+  left: 65%;
+  width: 17%;
+
+}
+#art12{
+  top: 52%;
+  left: 21%;
+  width: 17%;
+
+}
+#art14{
+  top: 38%;
+  left: 73%;
+  width: 15%;
+
+}
+#art15{
+  top: 67%;
+  left: 50%;
+  width: 17%;
+
+}
+#art16{
+  top: 15%;
+  left: 21%;
+  width: 17%;
+
+}
+#art17{
+  top: 32%;
+  left: 7%;
+  width: 15%;
+
+}
+@media (max-width: 900px){
+  #art1, #art2, #art3, #art4, #art5, #art6, #art9, #art9{
+    width: calc(100% * 0.75);
+  }
+    
+}
+@media (max-width: 600px){
+  #art1, #art2, #art3, #art4, #art5, #art6, #art8, #art9{
+    width: calc(100% * 0.55);
+  }
+}
+.background-name {
+      position: absolute;
+      top: 100%;
+      left: 15%;
+      transform: translate(-50%, -50%);
+      font-size: 15vw;   
+      font-weight: 800;
+      color: lightgrey;
+      
+      z-index: 0;     
+  }
+  h1{
+    color: lightgrey;
+    margin: 0;
+  }
+video{
+  display: block;
+  margin: 0 auto;
+  max-width: 600px;
+  width: 100%;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+  <nav class = "sidebar">
+    <a href="index.html">Home</a>
+    <a href="art.html">Art</a>
+    <a href="secret.html">Projects</a>
+  </nav>
+  </header>
+  <main>
+    <div class = "background-name">
+    <h1>ART</h1>
+  </div>
+
+    <div class="wall">
+     
+      <a class="art" id="art1">
+        <img src="art_img/IMG_1248.jpg" 
+        alt="Painting 1" 
+        srcset = "art_img/IMG_1248-2x.jpg 2x"
+       />
+      </a>
+      
+      <a class="art" id="art8">
+        <img src="art_img/IMG_1782.jpg" 
+        alt="Painting 8" 
+        srcset = "art_img/IMG_1782-2x.jpg 2x"
+       />
+      </a>
+      <a class="art" id="art9">
+        <img src="art_img/IMG_1783.jpg" 
+        alt="Painting 9" 
+        srcset = "art_img/IMG_1783-2x.jpg 2x"
+       />
+      </a>
+      <a class="art" id="art2">
+        <img src="art_img/IMG_1249.jpg" 
+        alt="Painting 2" 
+        srcset = "art_img/IMG_1249-2x.jpg 2x"
+        />
+      </a>
+      <a class="art" id="art3">
+        <img src="art_img/IMG_1252.jpg" 
+        srcset = "art_img/IMG_1252-2x.jpg 2x"
+        
+
+        alt="Painting 3" />
+      </a>
+      <a class="art" id="art4">
+        <img src="art_img/IMG_1253.jpg" 
+        srcset = "art_img/IMG_1253-2x.jpg 2x"
+        
+        alt="Painting 4" />
+      </a>
+      <a class="art" id="art5">
+        <img src="art_img/IMG_1250.jpg" 
+        srcset = "art_img/IMG_1250-2x.jpg 2x"
+      
+        alt="Painting 5" />
+      </a>
+      <a class="art" id="art6">
+        <img src="art_img/IMG_1251.jpg" 
+        srcset = "art_img/IMG_1251-2x.jpg 2x"
+       
+        alt="Painting 6" />
+      </a>
+      
+      <a class="art" id="art10">
+        <img src="art_img/IMG_1784.jpg" 
+        srcset = "art_img/IMG_1784-2x.jpg 2x"
+       
+        alt="Painting 10" />
+      </a>
+      <a class="art" id="art11">
+        <img src="art_img/IMG_1283.jpg" 
+        srcset = "art_img/IMG_1283-2x.jpg 2x"
+       
+        alt="Painting 11" />
+      </a>
+      <a class="art" id="art12">
+        <img src="art_img/IMG_1282.jpg" 
+        srcset = "art_img/IMG_1282-2x.jpg 2x"
+       
+        alt="Painting 12" />
+    
+      </a>
+      <a class="art" id="art14">
+        <img src="art_img/IMG_1277.jpg" 
+        srcset = "art_img/IMG_1277-2x.jpg 2x"
+       
+        alt="Painting 14" />
+      </a>
+      <a class="art" id="art15">
+        <img src="art_img/IMG_1276.jpg" 
+        srcset = "art_img/IMG_1276-2x.jpg 2x"
+       
+        alt="Painting 15" />
+      </a>
+      <a class="art" id="art16">
+        <img src="art_img/IMG_1275 2.jpg" 
+        srcset = "art_img/IMG_1275 2-2x.jpg 2x"
+       
+        alt="Painting 16" />
+      </a>
+      <a class="art" id="art17">
+        <img src="art_img/IMG_1256 2.jpg" 
+        srcset = "art_img/IMG_1256 2-2x.jpg 2x"
+       
+        alt="Painting 17" />
+      </a>
+    </div>
+
+
+
+<p>Ever since I can remember, I’ve been creating, whether with pencils, paint, or pixels. My earliest works were simple, sometimes imperfect, but filled with intention. I drew my mom a little to tall, my dad a little too round, my pets looked more like tiny rats than their real selves. Regardless of how they would be judged, I loved the process of making them, believing in my own abilities, enjoying every stroke, and most importantly, wanting to share my creations with others.
+</p> 
+<br> 
+<p>Almost every piece I’ve made, whether as a child or during my college years, has been crafted with someone in mind. Each drawing or painting carries emotional roots, a personal connection, and the unspoken ingredient of care. In the same way, as a computer science major, I find a similar joy in dedicating myself to projects, whether coding for a group assignment or developing a personal project. There is something freeing and joyful in immersing myself fully, refining the work until it perfectly aligns with the vision I hold in my mind.
+</p> 
+<br> 
+<p>Creating for others feels natural. With their preferences, personalities, or stories in mind, I pour attention and energy into every detail. In art, this manifests in vibrant colors and expressive lines. In coding, it emerges as clean design, thoughtful functionality, and a polished project that works seamlessly for the people who will use it. Both disciplines reward the patience and love invested in the process, and both produce something tangible that brings joy to others.
+</p> 
+<br> 
+<p>Here is an example of a memory that inspired me deeply to create:
+</p> 
+<br>
+<video width="800" height="650" autoplay muted> <source src="art_img/video.mp4" type="video/mp4"> Your browser does not support the video tag.
+</video> 
+<br> 
+<p>And yet, creating for myself carries its own magic. Art I make in solitude tends to be darker, more introspective, and deeply personal. Similarly, coding alone (debugging, refining, iterating), can feel like a meditative exercise, a moment of immersion where time slips by unnoticed until the project aligns perfectly with the vision I imagined. It is an act of dedication, consuming hours, yet leaving me feeling accomplished, light, and invigorated.
+</p> 
+<br> 
+<p>Whether painting for a friend, contributing to a group coding project, or completing a personal endeavor, I love sharing that joy. There is beauty in dedicating yourself fully, in the hours spent giving your best to a craft or project, and in the satisfaction of seeing it completed exactly as imagined. I invite you to explore this page and discover a few of my fulfilling moments of creation.
+</p>
+
+<div class = "footer-content">
+<footer>
+    <p id = "footer">Elsa Claassen ~ thank you <3</p>
+ </footer>
+ </div>
+<script src = "style.js"></script>
+  </main>
+</body>
+
+</html>

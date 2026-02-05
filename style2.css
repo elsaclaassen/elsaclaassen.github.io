@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face{
+  font-family: Poller_One;
+  src: url("Poller_One/PollerOne-Regular.ttf");
+}
+
+@font-face{
+  font-family: Source_Code_Pro;
+  src: url("Source_Code_Pro/SourceCodePro-VariableFont_wght.ttf");
+}
+
+
+
+.sidebar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: whitesmoke;
+  border-bottom: 5px double black;
+  border: 5px double black;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ 
+  z-index: 100;
+  box-sizing: border-box;
+}
+.sidebar a {
+    text-align: center;
+  	color: black;
+  	text-decoration: none;
+  	font-size: 15px;
+  	
+}
+
+
+h1{
+  font-size: 15vw;
+  font-weight: 800;
+  max-width: 90%;
+  margin: 20px auto;
+  color: black;
+  position: relative;
+
+  
+}
+p{
+  font-family: Source_Code_Pro;
+  font-size: 20px;
+  color:black;
+  margin: 15px auto;
+  max-width: 90%;
+  position: relative;
+  z-index: 1;
+  
+}
+
+
+body{
+    font-family: Poller_One;
+    
+    margin: 0;
+    line-height: 1.6;
+    overflow-x: hidden;
+    
+    background-color: whitesmoke;
+    color: darkgrey;
+  }
+a{
+  z-index: 1;
+}
+a:link{
+  color: black;
+
+}
+a:visited{
+  color: darkslategray;
+
+}
+a:hover{
+  color: cadetblue;
+}
+a:active{
+  color:pink;
+}
+footer p{
+ margin-top: 50px;
+  color: lightgrey;
+  font-size: 15px;
+}
+.form{
+  margin: 50px;
+}
+svg{
+  
+  z-index: 1;
+  border: 4px #101517;
+  disaply: block;
+  margin: 30px auto;
+  border-radius: 12px;
+
+}
+rect{
+  fill: #f6f7f7 ;
+  stroke: #101517;
+  stroke-width: 4;
+  z-index: 1;
+  
+}
+text{
+  fill:#101517 ;
+  stroke: none;
+  font-size: 14px;
+  
+  font-family: Source_Code_Pro;
+  
+
+}
+.icon-row{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top:40px;
+
+}
+
+rect:hover{
+  fill: lightgrey;
+  stroke:black ;
+
+}
+ul{
+  text-align: left;
+  margin-left: 60px;
+  margin-top: 20px;
+  list-style-type: disc;
+
+}
